@@ -21,5 +21,10 @@ ssh -p 61022 student@localhost - not working
 file:///Users/harinathselvaraj/Downloads/242-IJCSE-04374.pdf
 
 
+#Remove write protected - Yes to all
+rm -r -f insure-predict/
+
+
+
 
 
