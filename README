@@ -1,0 +1,25 @@
+git init
+git status
+git add -A
+git commit -m "Initial version"
+git push -u https://git-codecommit.us-east-2.amazonaws.com/v1/repos/loan-defaulter-predict master
+eb deploy
+
+
+
+virtualenv virt
+virt/bin/activate
+pip install flask==1.0.2
+pip freeze
+pip freeze > requirements.txt
+
+# Running the Application
+python application.py
+
+ssh -p 61022 student@localhost - not working
+
+file:///Users/harinathselvaraj/Downloads/242-IJCSE-04374.pdf
+
+
+
+
