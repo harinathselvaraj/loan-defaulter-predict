@@ -6,7 +6,7 @@ environment-defaults:
     branch: null
     repository: null
 global:
-  application_name: loan-defaulter-predict
+  application_name: loan_defaulter_predict
   default_ec2_keyname: null
   default_platform: arn:aws:elasticbeanstalk:eu-west-1::platform/Python 3.6 running
     on 64bit Amazon Linux/2.8.1
